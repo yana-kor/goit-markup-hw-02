@@ -40,7 +40,9 @@ a {
     letter-spacing: 0.02em;
 }
 
-.header-contact {}
+.header-contact {
+    font-style: normal;
+}
 
 .header-contact-list {}
 
@@ -52,11 +54,23 @@ a {
     letter-spacing: 0.02em;
 }
 
+.header-list-link:hover {
+    #404bbf;
+}
+
+.header-list-link:focus {
+    #404bbf;
+}
+
 .header-contact-link:hover {
-    color: #404BBF;
+    color: #404bbf;
 }
 
 .header-contact-link:active {
+    color: #404BBF;
+}
+
+.header-contact-link:focus {
     color: #404BBF;
 }
 
@@ -87,33 +101,16 @@ a {
     letter-spacing: 0.04em;
     background: #4D5AE5;
     cursor: pointer;
-    ;
 }
 
 .main-heading-btn:hover {
     color: #2E2F42;
-    border-radius: 4px;
     background: #404BBF;
 }
 
 .main-heading-btn:focus {
     color: #2E2F42;
-    border-radius: 4px;
     background: #404BBF;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-}
-
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
 }
 
 .benefits {
@@ -143,6 +140,10 @@ a {
     color: #434455;
 }
 
+
+.team {
+    background-color: #FFFFFF;
+}
 .team-tittle {
     color: #2E2F42;
     text-align: center;
@@ -166,7 +167,6 @@ a {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-
 .section-heading {
     color: #2E2F42;
     text-align: center;
@@ -185,11 +185,7 @@ a {
     letter-spacing: 0.02em;
 }
 
-.team-text {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-}
+
 
 /**================================================*/
 
