@@ -54,11 +54,11 @@ a {
     letter-spacing: 0.02em;
 }
 
-.header-item:hover {
+.header-list-link:hover {
     #404bbf;
 }
 
-.header-item:focus {
+.header-list-link:focus {
     #404bbf;
 }
 
@@ -185,7 +185,7 @@ a {
     letter-spacing: 0.02em;
 }
 
-.portfolio-item {
+.portfolio-list {
 background-color: #FFFFFF;
 }
 .portfolio-section {
